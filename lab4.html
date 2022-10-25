@@ -31,18 +31,23 @@
             h1 {
                 font-size: 30px;
                 text-align: center;
+                transition: 2s 1s;
             }
             p {
                 width: 450px;
                 margin: 18px auto;
+                transition: 2s 1s;
             }
             p:hover {
                 color: rgb(51, 39, 129);
                 text-shadow: 3px 3px 5px #aaa;
+                transition: 0.5s;
             }
             h1:hover {
                 color:rgb(247, 0, 255);
                 font-size: 33px;
+                transform: skew(-10deg, 0);
+                transition: 0.5s;
             }
             h1:active {
                 font-style: italic;
@@ -51,6 +56,7 @@
             .footer:hover {
                 background-color: cornflowerblue;
                 border-top: 2px solid  cornflowerblue;
+                transform: scale(-1);
             }
             .footer:active {
                 text-align: left;
@@ -58,6 +64,7 @@
             .header:hover {
                 background-color: deepskyblue;
                 color:rgb(248, 224, 253);
+                transition: 10s;
                 
             }
             .header:active {
@@ -65,11 +72,18 @@
                 font-size: 29px;
                 opacity: 0.1;
             }
+            p::first-letter {
+                font-size: 28px;
+                font-family:cursive;
+            }
+            p:hover::first-line{
+                color:  rgb(228, 241, 169);
+            }
         </style>
     </head>
     <body>
         <div class = "header">
-            Овчинникова Зельван
+            Овчинникова, Зельван
         </div>
 
         <div class = "content">
