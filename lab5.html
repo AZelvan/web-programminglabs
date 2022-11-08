@@ -76,12 +76,34 @@
                 border: 2px solid rgb(3, 45, 138);
                 z-index: 1;
             }
+            .menu {
+                height: 15px;
+                overflow: hidden;
+                width: 200px;
+                background-color: white;
+            }
+            .menu:hover {
+                height: 100px;
+                              
+            }
+            .spis:hover {
+                background-color: rgb(202, 201, 201);
+                width: 200px;
+            }
         </style>
     </head>
     <body>
         <div class="header">
             Овчинникова Вероника, Зельван Алина
         </div>
+            <div style = "position: absolute;">
+                <div class = "menu">
+                    <p style = "display: inline">Каталог</p><br>
+                    <p class = "spis" style = "display: inline">Новости</p><br>
+                    <p class = "spis" style = "display: inline">Картинки</p><br>
+                    <p class = "spis" style = "display: inline">Товары</p>
+                </div>
+            </div>
         <div class="content"> 
             <h1>Inline</h1>
             <div class="a"> block 1</div>
