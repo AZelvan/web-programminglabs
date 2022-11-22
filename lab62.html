@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="utf-8">
+        <title> Овчинникова Вероника и Зельван Алина. ФБИ-02. Лабораторная работа №6</title> 
+        <link rel="stylesheet" href="lab6.css" type="text/css">
+        <script>
+            console.log('Всем привет!!!');
+
+            let x = 33;
+            let s = 'яблоки';
+            //let if = 17;
+            console.log('x=', x, 's=', s);
+        </script>
+        <script src="lab6.js"></script>
+    </Head>
+    <body>
+        <div class="header" >
+            <div id="student" onclick="showHead()"> Овчинникова Вероника и Зельван Алина </div> 
+          <div class="language">
+                <input type="button" value="ru" onclick="setRussian()">
+                <input type="button" value="en" onclick="setEnglish()">
+          </div>
+        </div>
+
+        <div class="content">
+            <form>
+                <div id="user-date">
+                <div>
+                    <span id="your-name"> Ваше имя</span>: <input type="text" id="input-name" placeholder="введите имя">
+                </div>
+                <div>
+                    <span id="your-surname">Ваша фамилия</span>: <input type="text" id="input-surname" placeholder="введите фамилию">
+                </div>
+                <div>
+                    <span id="your-age">Ваш возраст</span>: <input type="number" id="input-age" placeholder="введите возраст">
+                </div>
+                <div>
+                    <input type="button" value="Окей" id="ok-button" onclick="showAlert()">
+                    <input type="reset" value="Сброс" id="reset-button">
+                </div>
+            </div>
+            </form>
+            <div class=stikh>
+                <p id="first" onclick="showFirst()">
+                    Мороз и солнце; день чудесный!<br>
+                    Еще ты дремлешь, друг прелестный —<br>
+                    Пора, красавица, проснись:<br>
+                    Открой сомкнуты негой взоры<br>
+                    Навстречу северной Авроры,<br>
+                    Звездою севера явись!<br>
+                </p>
+                
+                <p id="second" onclick="showSecond()">
+                    Вечор, ты помнишь, вьюга злилась,<br>
+                    На мутном небе мгла носилась;<br>
+                    Луна, как бледное пятно,<br>
+                    Сквозь тучи мрачные желтела,<br>
+                    И ты печальная сидела —<br>
+                    А нынче… погляди в окно:<br>
+                </p>
+                    
+                <p id="third" onclick="showThird()">
+                    Под голубыми небесами<br>
+                    Великолепными коврами,<br>
+                    Блестя на солнце, снег лежит;<br>
+                    Прозрачный лес один чернеет,<br>
+                    И ель сквозь иней зеленеет,<br>
+                    И речка подо льдом блестит.<br>
+                </p>
+                    
+                <p id="forth" onclick="showForth()">
+                    Вся комната янтарным блеском<br>
+                    Озарена. Веселым треском<br>
+                    Трещит затопленная печь.<br>
+                    Приятно думать у лежанки.<br>
+                    Но знаешь: не велеть ли в санки<br>
+                    Кобылку бурую запречь?<br>
+                </p>
+                    
+                <p id="fifth" onclick="showFifth()">
+                    Скользя по утреннему снегу,<br>
+                    Друг милый, предадимся бегу<br>
+                    Нетерпеливого коня<br>
+                    И навестим поля пустые,<br>
+                    Леса, недавно столь густые,<br>
+                    И берег, милый для меня.<br>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer" id="footer" onclick="showFoot()">
+            Факультет бизнеса, ФБИ-02, 3 курс, 2022
+        </div>
+    </body>
+</html>
