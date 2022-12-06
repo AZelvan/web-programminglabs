@@ -44,7 +44,7 @@ function makeStairs () {
     {
         steps[i].style.left =(30 + 10*i) + 'px';
         steps[i].style.top =(300 + 80*i) + 'px';
-        steps[i].innerHTML ='Блок номер ' + i;
+        steps[i].innerHTML ='Блок номер ' + (i+1);
     }
 }
 
@@ -64,4 +64,21 @@ function makeSnezhki () {
         snezhinkis[i].style.top = Math.random() *(screenHeight-100) + 'px';
         snezhinkis[i].style.width= Math.random() * 45 + 'px';
     }
+}
+
+function Table() {
+    let stepCount = 9;
+
+    for (let i = 0; i<stepCount; i++){
+        document.write ((i+1) + '*27=' + ((i+1)*27) + "<br>");
+    }
+    for (let i = 0; i<stepCount; i++){
+        document.write ((i+1) + '*30=' + ((i+1)*30) + "<br>");
+    }
+}
+
+function Load() {
+    makeStairs () ;
+    makeSnezhki ();
+    
 }
