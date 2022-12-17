@@ -29,5 +29,13 @@ body {
     color: rgb(233, 42, 42);
     font-size: 30px;
     font-style: italic;
-    padding-left: 20px;
+    margin-left: 40px;
+}
+#result {
+    color: rgb(45, 42, 233);
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
