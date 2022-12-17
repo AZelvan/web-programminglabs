@@ -45,3 +45,8 @@ body {
     font-size: 35px;
     color: rgb(6, 5, 66);
 }
+
+#result_new {
+    text-align: center;
+    font-size: 35px;
+}
