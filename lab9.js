@@ -28,3 +28,13 @@ function Swap (button) {
 		button.innerHTML='Нажми меня';
         button.style.color= 'white';}
 }
+
+function showCoords (event) {
+    event.target.innerHTML = 'x = ' + event.offsetX + ', y = ' + event.offsetY +
+     ', ctrl ' + event.ctrlKey + ', shift ' + event.shiftKey + ', alt ' + event.altKey;
+}
+
+window.addEventListener ('DOMContentLoaded', function () {
+    let coords = document.querySelector ('#coords');
+    coords.addEventListener('mousemove', showCoords)
+});
