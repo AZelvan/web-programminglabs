@@ -38,3 +38,13 @@ window.addEventListener ('DOMContentLoaded', function () {
     let coords = document.querySelector ('#coords');
     coords.addEventListener('mousemove', showCoords)
 });
+
+function BlurFunc (input) {
+    input.style.color= 'red';
+    input.style.fontSize = 15 + 'px';
+}
+
+function FokusFunc (input) {
+    input.style.color= 'green';
+    input.style.fontSize = 20 + 'px';
+}

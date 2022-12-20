@@ -34,3 +34,9 @@ body {
     text-align: center;
     line-height: 500px;
 }
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+}
