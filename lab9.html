@@ -28,10 +28,15 @@
                 <div id="coords">mouse</div>
             </div>
             <div>
-                <input type="text" value="один" onfocus="FokusFunc(this)" onblur="BlurFunc(this)">
-                <input type="text" value="два" onfocus="FokusFunc(this)" onblur="BlurFunc(this)">
-                <input type="text" value="три" onfocus="FokusFunc(this)" onblur="BlurFunc(this)">
+                <input type="text" value="один" onfocus="FokusFunc(this)" onblur="BlurFunc(this)" onchange="ChangeFunc(this)">
+                <input type="text" value="два" onfocus="FokusFunc(this)" onblur="BlurFunc(this)" onchange="ChangeFunc(this)">
+                <input type="text" value="три" onfocus="FokusFunc(this)" onblur="BlurFunc(this)" onchange="ChangeFunc(this)">
             </div>
+            
+            <div>
+                <div id="output"></div>
+            </div>
+
         </div>
 
         <div class="footer" >

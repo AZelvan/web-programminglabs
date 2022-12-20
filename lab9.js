@@ -48,3 +48,10 @@ function FokusFunc (input) {
     input.style.color= 'green';
     input.style.fontSize = 20 + 'px';
 }
+
+function ChangeFunc(input) {
+    let output = document.getElementById ('output');
+    output.innerHTML = input.value;
+
+}
+
