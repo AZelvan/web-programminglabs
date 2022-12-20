@@ -32,9 +32,22 @@
                 <input type="text" value="два" onfocus="FokusFunc(this)" onblur="BlurFunc(this)" onchange="ChangeFunc(this)">
                 <input type="text" value="три" onfocus="FokusFunc(this)" onblur="BlurFunc(this)" onchange="ChangeFunc(this)">
             </div>
-            
+
             <div>
                 <div id="output"></div>
+            </div>
+            <div>
+                <p><b>Корзина</b></p>
+                Молоко:<input type="number"  onchange="ChangeFuncDop(this)"><br>
+                Макароны:<input type="number"  onchange="ChangeFuncDop2(this)"><br>
+                Малина:<input type="number"  onchange="ChangeFuncDop3(this)"><br>
+                <p><b>Ваш заказ: </b></p>
+                <ul>
+                    <li id="new_output">Молоко:</li>
+                    <li id="new_output2">Макароны:</li>
+                    <li id="new_output3">Малина:</li>
+                  </ul>
+
             </div>
 
         </div>
